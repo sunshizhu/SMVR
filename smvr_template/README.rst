@@ -14,7 +14,7 @@ Behavior
 --------
 
 
-Installation sets up bootstrap command
+Installation sets up smvr command
 **************************************
 
 Situation before installation::
@@ -28,12 +28,8 @@ Installation right from the source tree (or via pip from PyPI)::
 
 Now, the ``smvr`` command is available::
 
-    $ smvr arg1 arg2
-    Executing bootstrap version 0.2.0.
-    List of argument strings: ['arg1', 'arg2']
-    Stuff and Boo():
-    <class 'bootstrap.stuff.Stuff'>
-    <bootstrap.bootstrap.Boo object at 0x7f366749a190>
+    $ smvr -w user_name
+    Hello user_name !!
 
 
 On Unix-like systems, the installation places a ``smvr`` script into a
